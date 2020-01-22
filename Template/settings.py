@@ -107,3 +107,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 어떤 폴더에서 Static 파일들을 가지고 올꺼야?
+STATICFILES_DIRS = (
+  os.path.join(BASE_DIR, 'static/'),
+)
