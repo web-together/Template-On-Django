@@ -19,8 +19,6 @@ django에 이미 만들어진 템플릿 적용시키기
 
 ## Static에 대한 이해
 
-### static / media?
-
 ### settings.py의 static 설정
 
 ```
@@ -40,3 +38,12 @@ STATICFILES_DIRS = (
 ```
 
 ### `python manage.py collectstatic` 명령어
+
+
+## 실습
+
+1. [1단계 : 초기 setting](https://github.com/web-together/Template-On-Django/commit/b547c9710594567fcee6edb4e3929e11852587d0)
+2. [2단계 : static 파일 넣기](https://github.com/web-together/Template-On-Django/commit/3418481846ad631ab3baac0d79efb90a4f96f76c)
+3. [3단계 : html 갖고오기](https://github.com/web-together/Template-On-Django/commit/0d25d5baa12d2cd098b29b214acccefd8d3ac955)
+4. [4단계 : 경로 맞추기](https://github.com/web-together/Template-On-Django/commit/824907596506b23f0a84c50e20bd1fec3f034b02)
+5. [끝!](https://github.com/web-together/Template-On-Django/commit/e806e38a11fdb0cac575e5b956f0d033f423f267)
