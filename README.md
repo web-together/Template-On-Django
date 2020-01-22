@@ -4,6 +4,8 @@ django에 이미 만들어진 템플릿 적용시키기
 
 [템플릿 예시](https://colorlib.com/wp/templates/)
 
+적용한 Template : https://colorlib.com/wp/template/unearth/
+
 ## 주의사항 : 라이선스!
 
  - 공짜라고 해서 막 쓸 수 있는 건 아니다
